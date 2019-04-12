@@ -147,3 +147,6 @@ service {
 This block will generate the option `--bind backend:nginx.default` when starting the haproxy service.
 
 
+## Kudos & Prior Art
+
+This provisioner is heavily inspired by prior art from [nsdavidson/terraform-provision-habitat](https://github.com/nsdavidson/terraform-provisioner-habitat) later added to [Terraform](https://github.com/hashicorp/terraform/pull/16280).
